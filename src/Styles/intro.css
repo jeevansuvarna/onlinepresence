@@ -1,0 +1,165 @@
+.house {
+  color: #ff3131;
+  user-select:none;
+
+}
+.wrapper {
+  margin-left: 10vh;
+  position: absolute;
+  margin-top: 35vh;
+  text-align-last: justify;
+  user-select:none;
+
+}
+
+.wrapper .static-txt {
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  color: #fff;
+  font-size: 50px;
+  font-weight: 400;
+  margin-left: 5vh;
+}
+
+.wrapper .dynamic-txt li {
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  color: #fff;
+  list-style: none;
+  font-size: 50px;
+  font-weight: 500;
+}
+.wrapper .dynamic-txt li span p {
+  color: #fc6d6d;
+  list-style: none;
+  font-size: 50px;
+  font-weight: 500;
+}
+.dynamic-txt li span {
+  position: relative;
+  display: flex;
+}
+.dynamic-txt li span::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  border-left: 2px solid #fc6d6d;
+  animation: typing 3s steps(16) infinite;
+}
+
+@keyframes typing {
+  100% {
+    left: 100%;
+    margin: 0 -35px 0 38px;
+  }
+}
+
+.wrapper button {
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  width: 21vh;
+  height: 8vh;
+  background-color: black;
+  border-color: black;
+  margin-left: 5vh;
+  border-right-color: #ff1f4c;
+  border-top-color: #ff1f4c;
+  border-left-width: 0px;
+  border-bottom-width: 0px;
+}
+.wrapper button center {
+  margin-left: 2vh;
+  font-size: 25px;
+  color: white;
+  margin-bottom: 1vh;
+  border-width: 0ch;
+}
+.wrapper button:hover {
+  border-color: #ff1f4c;
+  background-color: #ff1f4c;
+  box-shadow: 0 0 10px #ff1f4c, 0 0 40px #ff1f4c, 0 0 80px #ff1f4c;
+}
+
+
+@media screen and (max-width: 768px) {
+  .house {
+    color: #ff3131;
+  }
+  .wrapper {
+    margin-left: 8vh;
+    position: absolute;
+    margin-top: 35vh;
+    text-align-last: justify;
+    position: fixed;
+  }
+
+  .wrapper .static-txt {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400;
+    margin-left: 2vh;
+  }
+
+  .wrapper .dynamic-txt li {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    color: #fff;
+    list-style: none;
+    font-size: 30px;
+    font-weight: 500;
+  }
+  .wrapper .dynamic-txt li span p {
+    color: #fc6d6d;
+    list-style: none;
+    font-size: 30px;
+    font-weight: 500;
+  }
+  .dynamic-txt li span {
+    position: relative;
+    display: flex;
+  }
+  .dynamic-txt li span::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    border-left: 2px solid #fc6d6d;
+    animation: typing 3s steps(16) infinite;
+  }
+
+  @keyframes typing {
+    100% {
+      left: 100%;
+      margin: 0 -35px 0 38px;
+    }
+  }
+
+  .wrapper button {
+    width: 21vh;
+    height: 8vh;
+    background-color: black;
+    margin-top: 10vh;
+    border-color: black;
+    margin-left: 5vh;
+    border-right-color: #ff1f4c;
+    border-top-color: #ff1f4c;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+
+  }
+  .wrapper button center {
+    margin-left: 2vh;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 1vh;
+    border-width: 0ch;
+  }
+  .wrapper button:hover {
+    border-color: #ff1f4c;
+    background-color: #ff1f4c;
+    box-shadow: 0 0 10px #ff1f4c, 0 0 40px #ff1f4c, 0 0 80px #ff1f4c;
+  }
+}

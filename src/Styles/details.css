@@ -1,0 +1,117 @@
+.wrapper-3 {
+  width: 95%;
+  margin-left: 10vh;
+  display: flex;
+  user-select:none;
+  
+ 
+}
+
+.wrapper-3 > .details{
+  width: 40%;
+  margin-top: 30vh;
+ 
+}
+
+.wrapper-3 .details span{
+  width: 63vh;
+  color: white;
+  font-size: 50px;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  height: 10vh;
+}
+.wrapper-3 .details span .break {
+  color: #fc6d6d;
+  height: 1vh;
+  width: 35vh;
+  animation: sider 2s 1;
+  position: relative;
+}
+
+@keyframes sider {
+  from {
+    width: 10vh;
+  }
+  to {
+    width: 35vh;
+  }
+}
+
+
+.wrapper-3 .details p {
+  color: aliceblue;
+  font-size: 30 px;
+  min-width: 30vh;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.wrapper-3 > .skills{
+  width: 60%;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+  .wrapper-3 {
+    width: 95%;
+    margin-left: 10vh;
+    display: flex;
+    flex-direction: column;
+    user-select:none;
+    
+   
+  }
+  
+  .wrapper-3 > .details{
+    width: 70%;
+    margin-top: 30vh;
+    margin-left: 10%;
+   
+  }
+  
+  .wrapper-3 .details span{
+    width: 63vh;
+    color: white;
+    font-size: 30px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    height: 10vh;
+    
+  }
+  .wrapper-3 .details span .break {
+    color: #fc6d6d;
+    height: 1vh;
+    width: 18vh;
+    animation: sider 2s 1;
+  }
+  
+  @keyframes sider {
+    from {
+      width: 10vh;
+    }
+    to {
+      width: 18vh;
+    }
+  }
+  
+  
+  .wrapper-3 .details p {
+    color: aliceblue;
+    font-size: 30 px;
+    min-width: 30vh;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+  }
+  
+  .wrapper-3 > .skills{
+    margin-left: 8%;
+    width: 70%;
+  }
+  
+  
+  
+  
+
+}

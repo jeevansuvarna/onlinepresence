@@ -1,0 +1,152 @@
+.wrapper-7 {
+  width: 95%;
+  margin-left: 5vh;
+  height: auto;
+  user-select:none;
+  display: flex;
+}
+.wrapper-7 span {
+  margin-left: 6vh;
+  width: 63vh;
+  color: white;
+  font-size: 50px;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  height: 10vh;
+
+}
+.wrapper-7 span hr{
+  margin-left: 6vh;
+  color: #fc6d6d;
+  height: 1vh;
+  width: 35vh;
+  animation: sidera 2s 1;
+}
+@keyframes sidera {
+  from {
+    width: 10vh;
+  }
+  to {
+    width: 35vh;
+  }
+}
+.wrapper-7 > .project{
+  width: auto;
+  margin-top: 10vh;
+  animation: naruto1 2s;
+}
+
+@keyframes naruto1 {
+  from {
+    margin-top: 50vh;
+  }
+  to {
+    margin-top: 10vh;
+  }
+}
+.wrapper-7 .slide-container{
+  position: relative;
+}
+.wrapper-7  .cross{
+height: 3vh;
+color: lemonchiffon;
+}
+.wrapper-7 .cross:hover{
+  color: #fc6d6d;
+}
+.wrapper-7 .project h3 {
+  margin-top: 5vh;
+  color: aliceblue;
+  margin-left: 10vh;
+  
+}
+.wrapper-7  img{
+
+  width: 100%;
+  height: auto;
+  animation: image 2s;
+
+}
+@keyframes image {
+  from {
+   height: 20vh;
+  }
+  to{
+    height:90vh ;
+  }
+ 
+}
+
+
+.wrapper-7 .project .button {
+  margin-left: 10vh;
+  margin-top: 2vh;
+  border-radius: 12px;
+  background-color: black;
+  color: #fc6d6d;
+  width: 20vh;
+  min-width: 21vh;
+  height: auto;
+  min-height: 6vh;
+  animation: naruto 2s;
+  border-color: #fc6d6d;
+  border-width: 1px;
+  font-size: auto;
+}
+.eye {
+  height: 5vh;
+  width: 10vh;
+  margin-left: 1vh;
+  color: white;
+}
+.eye:hover {
+  color: #fc6d6d;
+}
+
+.wrapper-7 .project .button:hover {
+  color: aliceblue;
+  background-color: #fc6d6d;
+}
+@media screen and (max-width: 768px) {
+  .wrapper-7  img{
+
+    width: 100%;
+    height: auto;
+    animation: image 2s;
+  
+  }
+  @keyframes image {
+    from {
+     height: 1vh;
+    }
+    to{
+      height:25vh ;
+    }
+   
+  }
+  
+  .wrapper-7 span {
+    margin-left: 6vh;
+    width: 63vh;
+    color: white;
+    font-size: 30px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    height: 10vh;
+  
+  }
+  .wrapper-7 span hr{
+    margin-left: 6vh;
+    color: #fc6d6d;
+    height: 1vh;
+    width: 15vh;
+    animation: sidera 2s 1;
+  }
+  @keyframes sidera {
+    from {
+      width: 10vh;
+    }
+    to {
+      width: 15vh;
+    }
+  }
+
+}

@@ -1,0 +1,70 @@
+
+.wrap{
+  margin-top: 10vh;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  animation: langbutton 2s;
+  user-select:none;
+
+  
+}
+@keyframes langbutton {
+  from {
+    margin-top: 20vh;
+  }
+  to {
+    margin-top: 10vh;
+  }
+}
+
+.wrap .l {
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  font-size: 25px;
+  color: aliceblue;
+}
+
+.wrap .lang{
+  width: inherit;
+  justify-items: inter-word;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.wrap .lang button {
+  width: 20%;
+  color: aliceblue;
+  background-color: black;
+  border-color: #fc6d6d;
+  border-width: 1px;
+  height: auto;
+  min-height: 6vh;
+  min-height: 6vh;
+  border-radius: 18px;
+  margin-left: 2vh;
+  margin-top: 2vh;
+}
+
+.wrap .lang button:hover {
+  background-color: #fc6d6d;
+  color: aliceblue;
+}
+
+
+@media screen and (max-width: 768px) {
+  .wrap .lang button {
+    width: 40%;
+    color: aliceblue;
+    background-color: black;
+    border-color: #fc6d6d;
+    border-width: 1px;
+    height: auto;
+    min-height: 6vh;
+    min-height: 6vh;
+    border-radius: 18px;
+    margin-left: 2vh;
+    margin-top: 2vh;
+  }
+  
+}

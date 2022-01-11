@@ -1,0 +1,72 @@
+.sidebar {
+  width: 8vh;
+  height: 100%;
+  border-right-style: solid;
+  border-right-color: #ff1f4c;
+  border-right-width: 2px;
+  position: fixed;
+  background-color: black;
+  top: 0px;
+  left:0px
+  
+}
+
+.house {
+  margin-top: 30vh;
+  width: 8vh;
+  height: 5vh;
+  color: rgb(133, 134, 134);
+  user-select:none;
+  
+
+}
+.house:hover {
+  color: #ff1f4c;
+}
+.about {
+  margin-top: 4vh;
+  width: 8vh;
+  height: 5vh;
+  color: rgb(133, 134, 134);
+}
+.about:hover {
+  color: #ff1f4c;
+}
+.file {
+  margin-top: 4vh;
+  width: 8vh;
+  height: 5vh;
+  color: rgb(133, 134, 134);
+}
+.file:hover {
+  color: #ff1f4c;
+}
+
+.telephone {
+  margin-top: 4vh;
+  width: 8vh;
+  height: 5vh;
+  color: rgb(133, 134, 134);
+}
+.telephone:hover {
+  color: #ff1f4c;
+}
+/* @media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+} */
+
+/* Media Queries: Tabled Portrait */
+/* @media screen and (max-width: 768px) {
+  .sidebar {
+    width: 8%;
+    padding: 1vh;
+    margin-top: 5vh;
+    height: 90vh;
+    border-right-style: solid;
+    border-right-color: #ff1f4c;
+    border-right-width: 2px;
+    position: fixed;
+    background-color: black;
+  }
+} */

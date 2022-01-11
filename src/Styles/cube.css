@@ -1,0 +1,104 @@
+.wrapper1 {
+  width: 90vh;
+  height: 80vh;
+  margin-left: 110vh;
+  position: absolute;
+  margin-top: 17vh;
+  position: absolute;
+  display: flex;
+  user-select:none;
+
+}
+
+.box-area {
+  margin-left: 10vh;
+  margin-top: 25vh;
+  animation: animate 10s ease-in-out infinite;
+  transform-style: preserve-3d;
+  transform-origin: 100px 100px 0;
+  color: antiquewhite;
+}
+.box-area span {
+  color: #ff3131;
+  font-size: 25px;
+}
+
+.box-area div {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  line-height: 200px;
+  color: white;
+}
+
+.box-area .box1 {
+  /* background-color: red; */
+  border: 1px solid #ff3131;
+
+  border-radius: solid;
+  background-position: center center;
+  transform: translateZ(150px);
+  border-radius: 12px;
+}
+
+.box-area .box2 {
+  border: 1px solid #ff3131;
+  background-position: center center;
+  transform: rotateY(90deg) translateZ(150px);
+  border-radius: 12px;
+}
+
+.box-area .box3 {
+  border: 1px solid #ff3131;
+  background-position: center center;
+  transform: rotateY(90deg) rotateX(90deg) translateZ(150px);
+  border-radius: 12px;
+}
+
+.box-area .box4 {
+  border: 1px solid #ff3131;
+  background-position: center center;
+  transform: rotateY(180deg) rotateZ(90deg) translateZ(150px);
+  border-radius: 12px;
+}
+
+.box-area .box5 {
+  border: 1px solid #ff3131;
+  background-position: center center;
+  transform: rotateY(-90deg) rotateZ(90deg) translateZ(150px);
+  border-radius: 12px;
+}
+
+.box-area .box6 {
+  border: 1px solid #ff3131;
+  border-radius: 12px;
+  background-position: center center;
+  transform: rotateX(-90deg) translateZ(150px);
+}
+@keyframes animate {
+  from,
+  to {
+    transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+  }
+  16% {
+    transform: rotateY(-90deg);
+  }
+
+  33% {
+    transform: rotateY(-90deg) rotateZ(90deg);
+  }
+  50% {
+    transform: rotateY(-180deg) rotateZ(90deg);
+  }
+  66% {
+    transform: rotateY(-270deg) rotateZ(90deg);
+  }
+  83% {
+    transform: rotateY(90deg);
+  }
+}
+@media screen and (max-width: 768px) {
+  .wrapper1 {
+    display: none;
+  }
+}
